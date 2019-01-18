@@ -17,7 +17,5 @@ rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 EXPOSE 22
 
-//CMD ["/usr/sbin/sshd", "-D"]
-
 ADD entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
