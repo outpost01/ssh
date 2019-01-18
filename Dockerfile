@@ -19,4 +19,5 @@ EXPOSE 22
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
+RUN ls -al /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
