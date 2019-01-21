@@ -18,6 +18,4 @@ rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 EXPOSE 22
 
 ADD entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-RUN ls -al /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["sh","/entrypoint.sh"]
