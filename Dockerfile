@@ -25,8 +25,6 @@ RUN apt-get install -y \
 ffmpeg \
 libmagic \
 python3 \
-py3-numpy \
-py3-pillow \
 curl \
 tar
 
