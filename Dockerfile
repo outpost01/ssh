@@ -23,7 +23,7 @@ ADD config /root/.ssh/config
 
 RUN apt-get install -y \
 ffmpeg \
-libmagic \
+libmagic-dev \
 python3 \
 curl \
 tar
